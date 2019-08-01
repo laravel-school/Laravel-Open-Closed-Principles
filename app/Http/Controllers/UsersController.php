@@ -3,12 +3,16 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Repositories\CrudRepository;
+use App\Http\Repositories\UsersRepository;
 
 class UsersController extends Controller
 {
     public function index()
     {
-    	# code...
+    	$crud = new CrudRepository(new UsersRepository());
+
+        return $crud->index();
     }
 
     public function create()

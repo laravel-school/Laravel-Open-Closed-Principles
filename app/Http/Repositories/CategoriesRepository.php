@@ -1,21 +1,15 @@
 <?php
 namespace App\Http\Repositories;
 
+use App\Http\Interfaces\CrudInterface;
 use App\User;
 use Illuminate\Http\Request;
 
-class CrudRepository
+class CategoriesRepository implements CrudInterface
 {
-    protected $crudInterfac;
-
-    public function __constrct(CrudInterface $crudInterface)
-    {
-        $this->crudInterfac = $crudInterface;
-    }
-
     // Show list of the user
     public function index(){
-        return "Return the view page from the index";
+
     }
 
     // Show user create form
