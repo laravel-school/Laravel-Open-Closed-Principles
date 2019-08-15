@@ -1,4 +1,4 @@
-#Implement the Open Closed Principle in Laravel for Sign Up
+# Implement the Open Closed Principle in Laravel for Sign Up
 
  In this tutorial,  I will show you how to implement the Open Closed Principle in Laravel for Sign up a user. Here my intention is to apply OCP on Sign up so that you can relate it to your real-life scenario. 
 
