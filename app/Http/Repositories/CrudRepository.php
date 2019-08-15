@@ -6,11 +6,11 @@ use Illuminate\Http\Request;
 
 class CrudRepository
 {
-    protected $crudInterfac;
+    protected $crudInterface;
 
     public function __constrct(CrudInterface $crudInterface)
     {
-        $this->crudInterfac = $crudInterface;
+        $this->crudInterface = $crudInterface;
     }
 
     // Show list of the user
