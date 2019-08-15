@@ -226,4 +226,10 @@ Isn't that better than user `if-else` and changing code again and again?
 
 Please share your thought if you think it can be more improved. 
 
+
+This article has posted to [Laravel School](http://laravel-school.com/posts/implement-the-open-closed-principle-in-laravel-for-sign-up-43) first.
+
+
 Thank you. 
+
+
